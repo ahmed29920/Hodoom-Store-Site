@@ -414,6 +414,12 @@ input[type="number"] {
     display: none;
   }
 }
+@media (max-width: 700px) {
+  .edit-cart-item-size-span{
+    width: 10vw;
+    height: 10vw;
+  }
+}
 .types-cont div{
   overflow: hidden;
 }
@@ -448,6 +454,6 @@ footer a:hover{
 }
 @media screen and (max-width : 800px){
   .see-all-btn{
-    width: 20vw;
+    width: 55vw;
   }
 }
