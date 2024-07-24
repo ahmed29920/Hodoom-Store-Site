@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hodoom Store</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" />
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body class="auth-body">
+    <div class="row mx-0 h-100">
+      <div class="col-xl-7 col-lg-6 d-none d-lg-block">
+        <div class="inner text-start">
+          <img src="img/logo.png" alt="logo-img" class="logo-img" />
+        </div>
+        <div class="login-text text-center">
+          <h2>
+            <span data-lang="Welcome_to_Hodoom_Store"> Welcome to Hodoom Store! </span>
+            <br />
+          </h2>
+          <h4 data-lang="Start_your_journey_of_luxury_and_sophistication">
+            Start your journey <br> of luxury and sophistication
+          </h4>
+        </div>
+      </div>
+      <div class="col-12 col-xl-5 col-lg-6 form-div">
+        <div class="text-end w-100 lang-div p-3 mt-3 ">
+          <i class="fa-solid fa-earth-americas text-white lang-div-icon fa-2xl" id="lang-icon"></i>
+        </div>
+        <div class="d-flex align-items-center register">
+          <div class="login-form-cont p-4">
+            <div class="mob-text text-center d-block d-lg-none">
+              <img src="img/logo.png" alt="logo-img" class="logo-img" />
+              <h2 class="mt-lg-0 mt-md-4 mt-3">
+                <span data-lang="Welcome_to_Hodoom_Store">
+                  Welcome to Hodoom Store!
+                </span>
+                <br />
+              </h2>
+              <h4 data-lang="Start_your_journey_of_luxury_and_sophistication">
+                Start your journey <br> of luxury and sophistication
+              </h4>
+            </div>
+            <form action="" class="mt-lg-0 mt-md-4 mt-5">
+              <div class="mb-3">
+                <label for="f_name" class="form-label w-100" data-lang="First_Name">First Name</label>
+                <input type="text" class="form-control" id="f_name" placeholder="First Name" data-placeholder="Enter_First_Name"/>
+              </div>
+              <div class="mb-3">
+                <label for="l_name" class="form-label w-100" data-lang="Last_Name">Last Name</label>
+                <input type="text" class="form-control" id="l_name" placeholder="Last Name" data-placeholder="Enter_Last_Name"/>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label w-100" data-lang="Phone">Phone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter phone" data-placeholder="Enter_phone"/>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between">
+                  <label for="password" class="form-label" data-lang="Password">Password</label>
+                </div>
+                <input type="password" class="form-control" id="password" placeholder="Enter password" data-placeholder="Enter_password"/>
+              </div>
+              <button type="submit" class="btn btn-default w-100" data-lang="Sign_in">Sign in</button>
+              <a href="login.html" class="m-4 d-block register-link" data-lang="Already_have_an_account">Already have an account</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/all.min.js"></script>
+    <script src="scripts/translate.js"></script>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
