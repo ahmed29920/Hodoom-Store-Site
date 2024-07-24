@@ -40,6 +40,8 @@ $(document).on('mouseleave','.item-cont',function(){
     $('.quick-add-div').slideUp()
     $('.quick-add-btn').removeClass('quick-add-to-cart-btn')
     $('.quick-add-btn').text('Quick Add')
+    $('.quick-size-span').removeClass('quick-size-span-active')
+    $('.quick-color-span').removeClass('quick-color-span-active')
 })
 $(document).on('mouseover','.like-item',function(){
     $(this).children('.fa-heart').removeClass('fa-regular');
