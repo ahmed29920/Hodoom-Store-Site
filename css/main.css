@@ -443,3 +443,11 @@ footer a:hover{
   color: #ffcc00;
   
 }
+.see-all-btn{
+  width: 20vw;
+}
+@media screen and (max-width : 800px){
+  .see-all-btn{
+    width: 20vw;
+  }
+}
